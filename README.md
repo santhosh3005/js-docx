@@ -2,16 +2,13 @@
 
 ## Functions ##
 In JavaScript functions are the reusable blocks of code used to perform a specific task, they allow the code to be called many times.
+- The functions in JavaScript are composed of the following components.
+  - Function arguments  (values passed to a function are the function parameters)
+  - Function body  (It consists statements written in JavaScript)
+  - Function return statement  (It returns a value)
+- A function can also access the outer variables as it works from inside out, the code outside of the function can’t access its local     variables.
 
-The functions in JavaScript are composed of the following components.
-
-- Function arguments  (values passed to a function are the function parameters)
-- Function body  (It consists statements written in JavaScript)
-- Function return statement  (It returns a value)
-
-A function can also access the outer variables as it works from inside out, the code outside of the function can’t access its local variables.
-
-The following are different ways of creating a function in JavaScript
+- The following are different ways of creating a function in JavaScript
 
   - Function declaration.
   - Function expression.
@@ -157,6 +154,7 @@ alert( sum(1, 2) ); // 3
 - The arguments of the function body are separated from each other with semicolon.
 - The major difference from other functions is this function is created from a string which is passed at run time.
 - The functions created in this way don’t have the access to the current scope, they are always created in the global scope.
+
 
 
 
