@@ -144,7 +144,9 @@ The IIFE function contains a function declaration which is enclosed in brackets,
 ### _new Function_ syntax ###
 
 The new Function syntax for function creation is as shown below
-` let func = new Function ('arg1' , 'arg2' , 'functionBody') ; `
+```
+let func = new Function ('arg1' , 'arg2' , 'functionBody') ; 
+```
 - The function parameters go first, and the body is last and all the parameters are strings.
 ```
 let sum = new Function('a', 'b', 'return a + b');
