@@ -15,7 +15,7 @@ In JavaScript functions are the reusable blocks of code used to perform a specif
   - [Callback Function](#callback-function)
   - [Arrow Function](#arrow-function)
   - [Immediately-invoked function expression (IIFE)](#iife)
-  - [**new Function** syntax](#new-function)
+  - [**_new Function_** syntax](#new-function)
  
  ### Function Declaration: ###
 A function declaration is made of function keyword, followed by function name, a list of parameters in parenthesis and function body which contains the code of function body. 
@@ -86,7 +86,7 @@ function b(s) {
 - We can pass even more than one function as parameters into a function.
  
  
- ### Arrow Functions: ###
+ ### Arrow Function: ###
 
 An arrow function is defined using a pair of parenthesis that contains the list of parameters, followed by the arrow (=>) and a pair of curly braces {...} which contains the function body.
 
@@ -109,7 +109,7 @@ alert( double(3) ); // 6
 - The arrow functions are similar to function expressions, they are convenient for simple one-line functions.
 
 
-### Immediately-invoked function expressions (IIFE): ###
+### Immediately-invoked function expression (IIFE): ###
 
 The IIFE function contains a function declaration which is enclosed in brackets, the IIFE function is created and called immediately, the code in the function body executes right away and has its own local variables.
 
@@ -141,7 +141,7 @@ The IIFE function contains a function declaration which is enclosed in brackets,
 }();
 ```
 
-### The _new Function_ syntax: ###
+### _new Function_ syntax ###
 
 The new Function syntax for function creation is as shown below
 ` let func = new Function ('arg1' , 'arg2' , 'functionBody') ; `
