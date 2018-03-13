@@ -14,7 +14,7 @@ In JavaScript functions are the reusable blocks of code used to perform a specif
   - [Function Expression](#function-expression)
   - [Callback Function](#callback-function)
   - [Arrow Function](#arrow-function)
-  - [Immediately-invoked function expression (IIFE)](#immediately-invoked-function-expression-(iife))
+  - [Immediately-invoked function expression](#immediately-invoked-function-expression)
   - [_new Function_ syntax](#new-function-syntax)
  
  ### Function Declaration: ###
@@ -109,7 +109,7 @@ alert( double(3) ); // 6
 - The arrow functions are similar to function expressions, they are convenient for simple one-line functions.
 
 
-### Immediately-invoked function expression (IIFE): ###
+### Immediately-invoked function expression: ###
 
 The IIFE function contains a function declaration which is enclosed in brackets, the IIFE function is created and called immediately, the code in the function body executes right away and has its own local variables.
 
