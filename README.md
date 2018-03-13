@@ -14,7 +14,7 @@ In JavaScript functions are the reusable blocks of code used to perform a specif
   - [Function Expression](#function-expression)
   - [Callback Function](#callback-function)
   - [Arrow Function](#arrow-function)
-  - [Immediately-invoked function expression](#immediately-invoked-function-expression)
+  - [Immediately-invoked function expression (IIFE)](#immediately-invoked-function-expression-(iife))
   - [_new Function_ syntax](#new-function-syntax)
  
  ### Function Declaration: ###
