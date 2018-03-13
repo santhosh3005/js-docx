@@ -10,12 +10,12 @@ In JavaScript functions are the reusable blocks of code used to perform a specif
 
 - The following are different ways of creating a function in JavaScript
 
-  - Function declaration.
-  - Function expression.
-  - Callback function.
-  - Arrow Function.
-  - Immediately-invoked function expression (IIFE).
-  - **new Function** syntax.
+  - [Function Declaration](#function-declaration)
+  - [Function Expression](#function-expression)
+  - [Callback Function](#callback-function)
+  - [Arrow Function](#arrow-function)
+  - [Immediately-invoked function expression (IIFE)](#iife)
+  - [**new Function** syntax](#new-function)
  
  ### Function Declaration: ###
 A function declaration is made of function keyword, followed by function name, a list of parameters in parenthesis and function body which contains the code of function body. 
